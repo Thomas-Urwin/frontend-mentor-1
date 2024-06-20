@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color-grayish-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(218, 44%, 22%);
+  
+    --font-family: 'Outfit', sans-serif;
+    --font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-light-gray);
+}
+
+.qr-holder {
+    background-color: var(--color-white);
+    width: 320px;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 30px;
+}
+
+
+
+.qr-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    align-items: flex-start;
+}
+
+.qr-heading {
+    font-family: var(--font-family);
+    color: var(--color-dark-blue);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    border-radius:20px;
+    padding:10px;
+}
+
+.qr-text {
+    font-family: var(--font-family);
+    color: var(--color-grayish-blue);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    border-radius:20px;
+    padding:10px;
+    margin: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
